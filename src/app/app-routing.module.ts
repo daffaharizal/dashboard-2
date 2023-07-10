@@ -43,7 +43,7 @@ const routes: Routes = [
       { path: "", redirectTo: "login", pathMatch: "full" },
     ],
   },
-  // no layout views
+ , // no layout views
   { path: "profile", component: ProfileComponent },
   { path: "landing", component: LandingComponent },
   { path: "", component: IndexComponent },
